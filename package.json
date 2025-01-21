@@ -19,6 +19,7 @@
         "dotenv": "^16.4.5",
         "ffmpeg-static": "^5.0.2",
         "ms": "^3.0.0-canary.1",
+        "nodemon": "^3.1.9",
         "play-dl": "^1.9.6",
         "translate": "^3.0.0"
     }

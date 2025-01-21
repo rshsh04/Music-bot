@@ -15,7 +15,7 @@ module.exports = {
             .setDescription(await Translate('This code comes from a <GitHub> project <[ZerioDev/Music-bot](https://github.com/ZerioDev/Music-bot)>.<\n>The use of this one is possible while keeping the credits for free.<\n>If you want to remove the credits join the Discord support server. <[here](https://discord.gg/5cGSYV8ZZj)>)'))
             .addFields([{ name: `Enabled - ${commands.size}`, value: commands.map(x => `\`${x.name}\``).join(' | ') }])
             .setTimestamp()
-            .setFooter({ text: await Translate('Music comes first - Made with heart by the Community <❤️>'), iconURL: inter.member.avatarURL({ dynamic: true }) });
+            .setFooter({ text: await Translate('عمك البوت اب ضاحك ابوت بوت بين البوتات ويلا'), iconURL: inter.member.avatarURL({ dynamic: true }) });
 
         inter.editReply({ embeds: [embed] });
     }

@@ -1,7 +1,7 @@
 module.exports = {
     app: {
         token: process.env.DISCORD_TOKEN || 'xxx',
-        playing: 'by the Community ❤️',
+        playing: 'بزبي ',
         global: true,
         guild: process.env.GUILD_ID || 'xxx',
         extraMessages: false,
@@ -30,9 +30,9 @@ module.exports = {
         maxVol: 100,
         spotifyBridge: true,
         volume: 75,
-        leaveOnEmpty: true,
+        leaveOnEmpty: false,
         leaveOnEmptyCooldown: 30000,
-        leaveOnEnd: true,
+        leaveOnEnd: false,
         leaveOnEndCooldown: 30000,
         discordPlayer: {
             ytdlOptions: {
