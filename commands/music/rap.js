@@ -5,7 +5,7 @@ const { ApplicationCommandOptionType, EmbedBuilder } = require('discord.js');
 const { Translate } = require('../../process_tools');
 
 module.exports = {
-  name: 'tarab',
+  name: 'rap',
   description: 'Play pre-saved YouTube playlists',
   voiceChannel: true,
 
