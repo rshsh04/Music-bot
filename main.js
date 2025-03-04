@@ -15,6 +15,8 @@ global.client = new Client({
     disableMentions: 'everyone',
 });
 
+
+//testt
 client.config = require('./config');
 
 const player = new Player(client, client.config.opt.discordPlayer);
